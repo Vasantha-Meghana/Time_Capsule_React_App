@@ -15,6 +15,13 @@ Just set a future date, write your message, attach media, and lock it away.
 
 ---
 
+## 🌐 Live Demo
+
+▶️ [Visit Time Capsule App](https://time-capsule-react-app.netlify.app/)
+
+---
+
+
 ## Preview
 
 ![App Preview](./preview.png)
