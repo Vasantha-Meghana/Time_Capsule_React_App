@@ -1,0 +1,178 @@
+/* Base styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  background: linear-gradient(135deg, #d0f4de, #a2d2ff);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  background: white;
+  max-width: 600px;
+  width: 90%;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.8s ease;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #004d40;
+  margin-bottom: 0.3em;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #00796b;
+  margin-bottom: 2em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+/* Inputs */
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1.5px solid #00acc1;
+  resize: none;
+  transition: border-color 0.3s;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #007c91;
+}
+
+input[type="date"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1.5px solid #00acc1;
+  transition: border-color 0.3s;
+}
+
+input[type="date"]:focus,
+input[type="email"]:focus {
+  outline: none;
+  border-color: #007c91;
+}
+
+/* File upload styling */
+.file-label {
+  font-size: 0.95rem;
+  color: #006064;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.file-label input {
+  margin-top: 6px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Button styling */
+button {
+  background: linear-gradient(90deg, #00acc1, #007c91);
+  color: white;
+  border: none;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 172, 193, 0.3);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(90deg, #007c91, #005662);
+}
+
+/* Locked message view */
+.locked {
+  text-align: center;
+}
+
+.locked h2 {
+  font-size: 1.8rem;
+  color: #004d40;
+}
+
+.countdown {
+  font-size: 1.6rem;
+  color: #00796b;
+  margin: 20px 0;
+}
+
+.preview {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Image preview */
+.locked img {
+  max-width: 100%;
+  margin-top: 1rem;
+  border-radius: 12px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Audio preview */
+audio {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .countdown {
+    font-size: 1.3rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
