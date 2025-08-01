@@ -26,8 +26,6 @@ Just set a future date, write your message, attach media, and lock it away.
 
 ![App Preview](./preview.png)
 
-> *Attach a screenshot like the one you shared above and rename it `preview.png` in your repo.*
-
 ---
 
 ## Built With
