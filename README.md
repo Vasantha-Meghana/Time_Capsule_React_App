@@ -37,6 +37,7 @@ Just set a future date, write your message, attach media, and lock it away.
 - React
 - Vite or Create React App
 - CSS / Chakra UI (if used)
+- Netlify
 
 ## Getting Started
 
