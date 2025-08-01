@@ -26,8 +26,8 @@ Just set a future date, write your message, attach media, and lock it away.
     <td align="center"><strong> Locked Message Page</strong></td>
   </tr>
   <tr>
-    <td><img src="./assets/preview.png" alt="Input Page" width="300"/></td>
-    <td><img src="./assets/output.png" alt="Locked Page" width="300"/></td>
+    <td><img src="./assets/preview.png" alt="Input Page" width="500"/></td>
+    <td><img src="./assets/output.png" alt="Locked Page" width="500"/></td>
   </tr>
 </table>
 
