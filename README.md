@@ -5,17 +5,17 @@ Just set a future date, write your message, attach media, and lock it away.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📝 Write messages to your future self
-- 📅 Set an unlock date
-- 🖼️ Attach an image
-- 🎤 Attach an audio note
-- 📧 Receive it by email (on unlock date)
+- Write messages to your future self
+- Set an unlock date
+- Attach an image
+- Attach an audio note
+- Receive it by email (on unlock date)
 
 ---
 
-## 📸 Preview
+## Preview
 
 ![App Preview](./preview.png)
 
@@ -23,15 +23,15 @@ Just set a future date, write your message, attach media, and lock it away.
 
 ---
 
-## 🛠️ Built With
+## Built With
 
-- ⚛️ React
-- 📦 Vite or Create React App
-- 💅 CSS / Chakra UI (if used)
+- React
+- Vite or Create React App
+- CSS / Chakra UI (if used)
 
 ---
 
-## 📁 Getting Started
+## Getting Started
 
 ```bash
 git clone https://github.com/Vasantha-Meghana/Time_Capsule_React_App.git
